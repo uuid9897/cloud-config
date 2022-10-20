@@ -1,4 +1,5 @@
 eureka:
   client:
+      register-with-eureka: false
     service-url:
       defaultZone: http://www.eureka7001:7001/eureka/
